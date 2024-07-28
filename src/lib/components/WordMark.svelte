@@ -3,11 +3,13 @@
     export let text = "Minzo";
     export let textSize = "text-4xl";
     export let textColor = "#F0FFF0";
+
+    import logoSrc from '/assets/lotus_logo_med.svg'
   </script>
 
 <div class="wordmark-container">
     <div class="logo-container">
-        <img src="/assets/lotus_logo_med.svg" alt="Minzo" class="logo glow holographic p-0"/> 
+        <img src={logoSrc} alt="Minzo" class="logo glow holographic p-0"/> 
     </div>
     <h1 class="{textSize} {textColor} glow holographic p-0">{text}</h1>
 </div>
