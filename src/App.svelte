@@ -1,6 +1,7 @@
 <script lang="ts">
   import WordMark from "./lib/components/WordMark.svelte";
   import CTA from "./lib/components/CTA.svelte";
+  import HeroImage from "./lib/components/HeroImage.svelte";
 
   function handleClick() {
     console.log('Button clicked!');
@@ -18,6 +19,8 @@
   
  
     <WordMark />
+    <HeroImage />
+
 
 
 
