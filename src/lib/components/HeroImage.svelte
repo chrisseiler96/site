@@ -1,6 +1,5 @@
 
-<div class="hero-image-wrapper">
-    <div class="glass-container mt-16 w-fit">
+    <div class="glass-container w-fit">
         <div class=
         "
         absolute 
@@ -29,14 +28,6 @@
         />
         <img class="rounded-lg" src='/assets/peak-nutrition.png' alt="hero"/>	
     </div>
-</div>
 
 <style>
-    .hero-image-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%; /* Adjust this if you want a specific height */
-    }
 </style>  

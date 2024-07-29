@@ -8,35 +8,34 @@
   </script>
 
 <div class="wordmark-container glow">
-    <div class="logo-container ml-1">
+    <div class="logo-container">
         <img src={logoSrc} alt="Minzo" class="logo holographic p-0"/> 
     </div>
     <h1 class="{textSize} {textColor} p-0">{text}</h1>
 </div>
 
   
-  <style>
-    .wordmark-container {
-    display: flex;
-    align-items: center;
-    gap: 0rem
+<style>
+  .wordmark-container {
+  display: flex;
+  align-items: center;
+  gap: 0rem
+}
+
+  img {
+    max-width: 100%;
+    height: 100%;
+
   }
 
-    img {
-      max-width: 100%;
-      height: 100%;
-
-    }
-
-    .logo-container {
-        position: relative;
-        display: inline-block;
-    }
+  .logo-container {
+      position: relative;
+      display: inline-block;
+  }
 
 .logo {
   width: 95px; /* Adjust as needed */
-  height: auto;
-  margin-right: -0.5rem; /* Slight negative margin to pull text closer */
+  height: auto; /* Slight negative margin to pull text closer */
 
 }
 
