@@ -26,7 +26,7 @@
         blur-[120px] filter
         "
         />
-        <img class="rounded-lg" src='/assets/peak-nutrition.png' alt="hero"/>	
+        <img class="rounded-lg" src='/assets/hero.png' alt="hero"/>	
     </div>
 
 <style>

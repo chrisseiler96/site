@@ -6,3 +6,31 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Add asset handling
+[build.processing]
+  skip_processing = false
+[build.processing.images]
+  compress = true
+
+# Ensure large media files are included
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true
+
+# Optional: Add a plugin to help with asset discovery
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+# Optional: Add cache control for images
+[[headers]]
+  for = "/assets/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000"
