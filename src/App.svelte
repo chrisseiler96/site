@@ -29,7 +29,7 @@
   </nav>
 
 
-  <HeroText hook={"AI Powered Conversations That Convert"} body={'Introducing cutting edge AI sales assistants that transform your website into a personalized shopping experience'}></HeroText>
+  <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Prism lets you create cutting edge AI sales assistants that transform your website into a personalized shopping experience'}></HeroText>
   
   <div class="cta-container flex justify-center items-center w-full">
     <CTA
