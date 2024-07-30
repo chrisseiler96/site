@@ -1,12 +1,19 @@
-<script>
+<script lang="ts">
   export let text = "Click me";
   export let href = "#";
-  export let onClick = () => {};
+  export let onClick: (() => void) | null = null;
+
+ function handleClick(event: MouseEvent) {
+   if (onClick) {
+     event.preventDefault();
+     onClick();
+   }
+ }
 </script>
 
 <a
   {href}
-  on:click|preventDefault={onClick}
+  on:click={handleClick}
   class="
     relative inline-flex h-fit w-fit rounded-full
     border border-violet-100/20 bg-violet-200/10
