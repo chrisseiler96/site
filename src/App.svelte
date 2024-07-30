@@ -11,32 +11,32 @@
   }
 
   const bentoBoxData = {
-    heading: "The New Gold Standard",
+    heading: "Setting The New Gold Standard",
     body: "",
     boxes: [
 
     {
     title: "Intelligent Question Answering",
     body: "Eta analyzes your website and documents for accurate responses to customer inquiries 24/7.",
-    imageSrc: "https://placehold.jp/1024x300.png",
+    imageSrc: "",
     wide: false
     },
       {
     title: "Personalized Product Recommendations",
     body: "Show customers your most relevant products and services.",
-    imageSrc: "https://placehold.jp/400x300.png",
+    imageSrc: "",
     wide: true
   },
   {
     title: "Deep Customer Insights",
     body: "Gain valuable insights into customer preferences, and pain points.",
-    imageSrc: "https://placehold.jp/1024x300.png",
+    imageSrc: "",
     wide: true
   },
   {
     title: "Seamless Integration",
     body: "Use Eta as an overlay compatible with all websites.",
-    imageSrc: "https://placehold.jp/400x300.png",
+    imageSrc: "",
     wide: false
   }
     ]
