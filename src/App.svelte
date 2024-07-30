@@ -33,7 +33,7 @@
   
   <div class="cta-container flex justify-center items-center w-full">
     <CTA
-      text="Get Early Access"
+      text="Prism Early Access"
       href="https://q7wuazyqgm6.typeform.com/to/cpBxUeLE"
     />
   </div>
