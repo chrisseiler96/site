@@ -14,7 +14,16 @@
     export let boxes: BoxItem[];
   </script>
     <section class="bentobox">
-        <h2 class="text-center text-4xl font-bold">{heading}</h2>
+        <h2 
+          class="mx-auto
+	        max-w-3xl
+	        text-center
+	        text-balance
+	        text-5xl
+	        font-medium
+	        md:text-7xl">
+          {heading}
+        </h2>
         <div
         class="mx-auto mt-6 max-w-md text-balance text-center text-gray-300"
         >

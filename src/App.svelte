@@ -12,7 +12,7 @@
 
   const bentoBoxData = {
     heading: "The New Gold Standard",
-    body: "Your main body text goes here. It can be a brief description or introduction.",
+    body: "",
     boxes: [
 
     {
