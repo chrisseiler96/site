@@ -41,7 +41,7 @@
 
 /* Glow effect */
 .glow {
-  filter: drop-shadow(0 0 5px rgba(0, 195, 255, 0.7));
+  filter: drop-shadow(0 0 5px rgba(0, 195, 255, 0.4));
   transition: filter 0.3s ease;
   z-index: 1;
 }
