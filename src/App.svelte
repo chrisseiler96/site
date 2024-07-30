@@ -3,10 +3,44 @@
   import CTA from "./lib/components/CTA.svelte";
   import HeroImage from "./lib/components/HeroImage.svelte";
   import HeroText from "./lib/components/HeroText.svelte";
+  import BentoBox from './lib/components/BentoBox.svelte';
+  import Bounded from "./lib/components/Bounded.svelte";
 
   function handleClick() {
     console.log('Button clicked!');
   }
+
+  const bentoBoxData = {
+    heading: "The New Gold Standard",
+    body: "Your main body text goes here. It can be a brief description or introduction.",
+    boxes: [
+
+    {
+    title: "Intelligent Question Answering",
+    body: "Eta analyzes your website and documents for accurate responses to customer inquiries 24/7.",
+    imageSrc: "https://placehold.jp/1024x300.png",
+    wide: false
+    },
+      {
+    title: "Personalized Product Recommendations",
+    body: "Show customers your most relevant products and services.",
+    imageSrc: "https://placehold.jp/400x300.png",
+    wide: true
+  },
+  {
+    title: "Deep Customer Insights",
+    body: "Gain valuable insights into customer preferences, and pain points.",
+    imageSrc: "https://placehold.jp/1024x300.png",
+    wide: true
+  },
+  {
+    title: "Seamless Integration",
+    body: "Use Eta as an overlay compatible with all websites.",
+    imageSrc: "https://placehold.jp/400x300.png",
+    wide: false
+  }
+    ]
+  };
   
 </script>
   <nav 
@@ -28,21 +62,24 @@
 
   </nav>
 
+  <Bounded>
+    <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Use our assistant Eta to create personalized shopping experiences for your website.'}></HeroText>
+    
+    <div class="cta-container flex justify-center items-center w-full mb-12">
+      <CTA
+        text="Request Early Access"
+        href="https://q7wuazyqgm6.typeform.com/to/cpBxUeLE"
+      />
+    </div>
+    
 
-  <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Prism lets you create cutting edge AI sales assistants that transform your website into a personalized shopping experience'}></HeroText>
+      <HeroImage />
+  </Bounded>
+
+  <Bounded>
+    <BentoBox {...bentoBoxData} />
+  </Bounded>
   
-  <div class="cta-container flex justify-center items-center w-full">
-    <CTA
-      text="Prism Early Access"
-      href="https://q7wuazyqgm6.typeform.com/to/cpBxUeLE"
-    />
-  </div>
-  
-
-  <div class="hero-image-wrapper">
-    <HeroImage />
-  </div>
-
 
 
 
@@ -74,6 +111,6 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 70%; /* Adjust this if you want a specific height */
+      height: 100%; /* Adjust this if you want a specific height */
     }
 </style>

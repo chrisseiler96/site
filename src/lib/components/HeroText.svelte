@@ -3,7 +3,6 @@
 	export let body: string;
    </script>
    
-   <div class="mt-12"> <!-- Increased top margin here -->
 	 <h1 class="
 	   mx-auto
 	   max-w-3xl
@@ -25,4 +24,3 @@
 	 ">
 	   {body}
 	 </p>
-   </div>
