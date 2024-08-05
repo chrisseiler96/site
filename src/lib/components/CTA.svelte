@@ -21,10 +21,10 @@
     ring-violet-400 transition-all duration-300
     after:absolute after:inset-0 after:-z-10
     after:animate-pulse after:rounded-full
-    after:bg-slate-400 after:bg-opacity-0
-    after:blur-md after:transition-all after:duration-400
-    hover:border-amber-200/40 hover:text-amber-200
-    hover:bg-amber-100/10 after:hover:bg-amber-200
+    after:bg-violet-400 after:bg-opacity-0
+    after:blur-md after:transition-all after:duration-500
+    hover:border-orange-300/40 hover:text-orange-200
+    hover:bg-orange-200/10 after:hover:bg-orange-400
     after:hover:bg-opacity-15 focus:ring-2
   "
 >
