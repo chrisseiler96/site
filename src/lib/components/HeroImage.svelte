@@ -8,7 +8,7 @@
         -z-10 
         h-2/3 
         w-2/3 
-        bg-violet-700/50 
+        bg-blue-700/30
         mx-blend-screen 
         blur-[120px] filter
         "
@@ -21,7 +21,7 @@
         -z-10 
         h-2/3 
         w-2/3 
-        bg-orange-600/50 
+        bg-blue-700/30 
         mx-blend-screen 
         blur-[120px] filter
         "
