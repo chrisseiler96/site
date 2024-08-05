@@ -6,6 +6,11 @@
   import BentoBox from './lib/components/BentoBox.svelte';
   import Bounded from "./lib/components/Bounded.svelte";
 
+  import Facebook from '~icons/lucide/facebook';
+  import Twitter from '~icons/lucide/twitter';
+  import Instagram from '~icons/lucide/instagram'
+
+
   function handleClick() {
     console.log('Button clicked!');
   }
@@ -41,6 +46,13 @@
   }
     ]
   };
+
+  const socialLinks = [
+   { icon: Facebook, href: "https://www.facebook.com/people/Minzo-AI/61550691044873/" },
+   { icon: Twitter, href: "https://x.com/MinzoAI" },
+   { icon: Instagram, href: "https://www.instagram.com/minzoai/"}
+   
+ ];
   
 </script>
   <nav 
@@ -81,7 +93,30 @@
   </Bounded>
   
 
+  <footer>
+    <nav 
+      class="flex flex-col items-center 
+      justify-between gap-6 border-t 
+      border-x-gray-600 px-8 py-7 
+      md:flex-row"
+      aria-label="Footer Navigation"
+    >
+      <a href="/" on:click={close} class="z-50">
+        <WordMark />
+      </a>
+      <ul class="flex gap-6">
+        {#each socialLinks as { icon: Icon, href }}
+        <li>
+          <a {href} target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-300">
+            <Icon size={24} />
+          </a>
+        </li>
+      {/each}
+      </ul>
 
+    </nav>
+  </footer>
+  
 
 
 <style>
