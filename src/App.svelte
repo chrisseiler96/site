@@ -117,8 +117,6 @@
       </ul>
 
     </nav>
-
-    <Jsonld />
   </footer>
   
 
