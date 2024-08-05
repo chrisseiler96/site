@@ -21,31 +21,30 @@
     heading: "Setting The New Gold Standard",
     body: "",
     boxes: [
-
-    {
-    title: "Intelligent Question Answering",
-    body: "Eta analyzes your website and documents for accurate responses to customer inquiries 24/7.",
-    imageSrc: "",
-    wide: false
-    },
+        {
+          title: "Intelligent Question Answering",
+          body: "Eta analyzes your website and documents for accurate responses to customer inquiries 24/7.",
+          imageSrc: "",
+          wide: false
+        },
+        {
+          title: "Personalized Product Recommendations",
+          body: "Show customers your most relevant products and services.",
+          imageSrc: "",
+          wide: true
+      },
       {
-    title: "Personalized Product Recommendations",
-    body: "Show customers your most relevant products and services.",
-    imageSrc: "",
-    wide: true
-  },
-  {
-    title: "Deep Customer Insights",
-    body: "Gain valuable insights into customer preferences, and pain points.",
-    imageSrc: "",
-    wide: true
-  },
-  {
-    title: "Seamless Integration",
-    body: "Use Eta as an overlay compatible with all websites.",
-    imageSrc: "",
-    wide: false
-  }
+        title: "Deep Customer Insights",
+        body: "Gain valuable insights into customer preferences, and pain points.",
+        imageSrc: "",
+        wide: true
+      },
+      {
+        title: "Seamless Integration",
+        body: "Use Eta as an overlay compatible with all websites.",
+        imageSrc: "",
+        wide: false
+      }
     ]
   };
 
@@ -53,7 +52,6 @@
    { icon: Facebook, href: "https://www.facebook.com/people/Minzo-AI/61550691044873/" },
    { icon: Twitter, href: "https://x.com/MinzoAI" },
    { icon: Instagram, href: "https://www.instagram.com/minzoai/"}
-   
  ];
   
 </script>
