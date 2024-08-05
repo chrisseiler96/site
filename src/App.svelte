@@ -10,6 +10,8 @@
   import Twitter from '~icons/lucide/twitter';
   import Instagram from '~icons/lucide/instagram'
 
+  import Jsonld from "./lib/components/JSONLD.svelte";
+
 
   function handleClick() {
     console.log('Button clicked!');
@@ -115,6 +117,8 @@
       </ul>
 
     </nav>
+
+    <Jsonld />
   </footer>
   
 
