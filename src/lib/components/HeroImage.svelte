@@ -26,7 +26,7 @@
         blur-[120px] filter
         "
         />
-        <img class="rounded-lg" src='/assets/hero.gif' alt="hero"/>	
+        <img class="rounded-lg" src='/assets/hero2.gif' alt="hero"/>	
     </div>
 
 <style>
