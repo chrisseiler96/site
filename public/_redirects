@@ -1,1 +1,8 @@
 /* /index.html 200
+
+# Redirect www to non-www
+   https://www.minzo.ai/* https://minzo.ai/:splat 301!
+
+   # Redirect HTTP to HTTPS
+   http://minzo.ai/* https://minzo.ai/:splat 301!
+   http://www.minzo.ai/* https://minzo.ai/:splat 301!
