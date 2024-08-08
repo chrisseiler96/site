@@ -75,7 +75,7 @@
   </nav>
 
   <Bounded>
-    <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Use our assistant Eta to create personalized shopping experiences for your website.'}></HeroText>
+    <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Use Prism to create personalized shopping experiences for your website.'}></HeroText>
     
     <div class="cta-container flex justify-center items-center w-full mb-12">
       <CTA
