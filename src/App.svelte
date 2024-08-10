@@ -66,11 +66,6 @@
     </a>
   </div>
 
-    <CTA 
-      text="Coming Soon" 
-      href="#" 
-      onClick={handleClick}
-    />
 
   </nav>
 
