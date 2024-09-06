@@ -74,8 +74,8 @@
     
     <div class="cta-container flex justify-center items-center w-full mb-12">
       <CTA
-        text="Request Early Access"
-        href="https://q7wuazyqgm6.typeform.com/to/cpBxUeLE"
+        text="Button"
+        href="https://minzo.ai"
       />
     </div>
     
