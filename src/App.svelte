@@ -71,14 +71,13 @@
 
   </nav>
 
-  <Bounded>
-    <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
-    
+  <Bounded>    
     <div class="cta-container flex justify-center items-center w-full mb-14">
     </div>
     
 
       <HeroImage />
+    <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
   </Bounded>
 
   <Bounded>
