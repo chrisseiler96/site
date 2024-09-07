@@ -78,7 +78,7 @@
 
       <HeroImage />
 
-    <div class="mt-8">
+    <div class="mt-10">
       <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
     </div>
   </Bounded>
