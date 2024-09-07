@@ -48,6 +48,8 @@
     ]
   };
 
+  // <BentoBox {...bentoBoxData} />
+
   const socialLinks = [
    { icon: Facebook, href: "https://www.facebook.com/people/Minzo-AI/61550691044873/" },
    { icon: Twitter, href: "https://x.com/MinzoAI" },
@@ -70,7 +72,7 @@
   </nav>
 
   <Bounded>
-    <HeroText hook={"Next-Gen AI for Sales and Support"} body={'Use Prism to create personalized shopping experiences for your website.'}></HeroText>
+    <HeroText hook={"Next-Gen AI for Sales and Support"} body={''}></HeroText>
     
     <div class="cta-container flex justify-center items-center w-full mb-12">
     </div>
@@ -80,7 +82,6 @@
   </Bounded>
 
   <Bounded>
-    <BentoBox {...bentoBoxData} />
   </Bounded>
   
 
