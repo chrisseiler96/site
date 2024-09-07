@@ -74,7 +74,7 @@
   <Bounded>
     <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
     
-    <div class="cta-container flex justify-center items-center w-full mb-12">
+    <div class="cta-container flex justify-center items-center w-full mb-14">
     </div>
     
 
