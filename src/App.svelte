@@ -72,12 +72,15 @@
   </nav>
 
   <Bounded>    
-    <div class="cta-container flex justify-center items-center w-full mb-14">
+    <div class="cta-container flex justify-center items-center w-full">
     </div>
     
 
       <HeroImage />
-    <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
+
+    <div class="mt-5">
+      <HeroText hook={"Next-Gen Assistants"} body={''}></HeroText>
+    </div>
   </Bounded>
 
   <Bounded>
