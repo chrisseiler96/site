@@ -74,7 +74,7 @@
     
     <div class="cta-container flex justify-center items-center w-full mb-12">
       <CTA
-        text="Button"
+        text="Refresh Page"
         href="https://minzo.ai"
       />
     </div>
