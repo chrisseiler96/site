@@ -1,6 +1,6 @@
 <!-- src/lib/components/WordMark.svelte -->
 <script>
-    export let text = "minzo";
+    export let text = "MINZO";
     export let textSize = "text-4xl";
     export let textColor = "#F0FFF0";
 
