@@ -53,7 +53,7 @@
   const socialLinks = [
    { icon: Facebook, href: "https://www.facebook.com/people/Minzo-AI/61550691044873/" },
    { icon: Twitter, href: "https://x.com/MinzoAI" },
-   { icon: Instagram, href: "https://www.instagram.com/minzoai/"}
+   { icon: Instagram, href: "https://www.instagram.com/minzo_research/"}
  ];
   
 </script>
